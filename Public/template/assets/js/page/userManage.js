@@ -114,15 +114,15 @@ define([
                 console.log(value);
                 var codeTd = '<td>' + value.phone + '</td>';
                 var orgNameTd = '<td>' + value.nickname + '</td>';
-                //var orgTypeTd = '<td>' + config.orgType[value.orgType] + '</td>';
+                var orgTypeTd = '<td>' + config.orgType[value.orgType] + '</td>';
                 var upLevelTd = '<td>' + value.name + '</td>';
                 var phoneTd = '<td>' + value.phone + '</td>';
                 var cellphoneTd = '<td>' + value.lastLoginTime + '</td>';
-                if(value.status ==1){
-                  var statusTd = '<td>启用</td>';
-                }else{
-                  var statusTd = '<td>禁用</td>';
-                }
+                // if(value.status ==1){
+                //   var statusTd = '<td>启用</td>';
+                // }else{
+                //   var statusTd = '<td>禁用</td>';
+                // }
                 
                 oTr += '<tr class="fadeIn animated">' + checkTd + codeTd + orgNameTd  + upLevelTd + phoneTd + cellphoneTd + statusTd + controlTd + '</tr>';
             });

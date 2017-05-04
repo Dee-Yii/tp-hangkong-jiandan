@@ -23,6 +23,11 @@ class ClientmanageController extends Controller {
       $this->display('accountManage/brokerManage');
     }
     public function buyLog(){
+        $phone= "18657195470";
+        $user_info = M('user_info');
+        $map['phoneNum'] = $phone;
+        $userInfo = $user_info->where($map)->find();
+        $this->assign('userInfo',$userInfo);
         $this->display('clientManage/clientListView/buyLog');
     }
 }

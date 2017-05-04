@@ -394,3 +394,539 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
 
+[ 2017-05-04T17:37:42+08:00 ] ::1 /tp-hangkong/index.php/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:38:16+08:00 ] ::1 /tp-hangkong/index.php/home/clientmanage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+ERR: 非法操作:index
+
+[ 2017-05-04T17:38:29+08:00 ] ::1 /tp-hangkong/index.php/home/clientmanage/clientList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:38:31+08:00 ] ::1 /tp-hangkong/index.php/home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.409023s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.107006s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.000000s ]
+
+[ 2017-05-04T17:38:36+08:00 ] ::1 /tp-hangkong/index.php/Home/accountmanage/orgManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:38:36+08:00 ] ::1 /tp-hangkong/index.php/Home/member/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `member_info` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\MemberController.class.php 第 23 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `member_info` LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\MemberController.class.php 第 24 行.
+SQL: SELECT * FROM `member_info` LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `member_info` WHERE `memberid` = '1'  [ RunTime:0.000000s ]
+
+[ 2017-05-04T17:39:18+08:00 ] ::1 /tp-hangkong/index.php/Home/accountmanage/userManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:39:18+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.015001s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,10   [ RunTime:0.000000s ]
+
+[ 2017-05-04T17:39:37+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/clientList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:39:37+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.001000s ]
+
+[ 2017-05-04T17:39:45+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:40:37+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/clientListView/chuRuJinLog
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+ERR: 非法操作:clientListView
+
+[ 2017-05-04T17:41:40+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.001000s ]
+
+[ 2017-05-04T17:42:40+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:48:27+08:00 ] ::1 /tp-hangkong/index.php/Home/accountmanage/orgManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:48:27+08:00 ] ::1 /tp-hangkong/index.php/Home/member/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `member_info` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\MemberController.class.php 第 23 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `member_info` LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\MemberController.class.php 第 24 行.
+SQL: SELECT * FROM `member_info` LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `member_info` WHERE `memberid` = '1'  [ RunTime:0.000000s ]
+
+[ 2017-05-04T17:48:28+08:00 ] ::1 /tp-hangkong/index.php/Home/accountmanage/userManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:48:29+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.005001s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,10   [ RunTime:0.001000s ]
+
+[ 2017-05-04T17:48:53+08:00 ] ::1 /tp-hangkong/index.php/Home/accountmanage/userManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:48:54+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,10   [ RunTime:0.001000s ]
+
+[ 2017-05-04T17:51:29+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/clientList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:51:29+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.011000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.002000s ]
+
+[ 2017-05-04T17:51:31+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+ERR: 模板不存在:./Application/Home/View/clientManage/buyLog.html
+
+[ 2017-05-04T17:52:44+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:52:44+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.003000s ]
+
+[ 2017-05-04T17:53:29+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:53:30+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.020001s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.000000s ]
+
+[ 2017-05-04T17:54:58+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+ERR: 错误的查询条件:[phone=>123]
+
+[ 2017-05-04T17:55:25+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+ERR: 错误的查询条件:[phone=>123]
+
+[ 2017-05-04T17:55:26+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+ERR: 错误的查询条件:[phone=>123]
+
+[ 2017-05-04T17:56:35+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:56:35+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.001000s ]
+
+[ 2017-05-04T17:57:09+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T17:57:10+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.002000s ]
+
+[ 2017-05-04T18:01:19+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:01:20+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.004001s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.000000s ]
+
+[ 2017-05-04T18:01:50+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:01:50+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.001000s ]
+
+[ 2017-05-04T18:02:11+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:02:11+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.000000s ]
+
+[ 2017-05-04T18:02:35+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:02:35+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.000000s ]
+
+[ 2017-05-04T18:03:02+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:03:02+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.002000s ]
+
+[ 2017-05-04T18:03:27+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:03:27+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.000000s ]
+
+[ 2017-05-04T18:04:01+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:05:33+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:06:25+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:07:16+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:07:24+08:00 ] ::1 /tp-hangkong/index.php/Home/clientmanage/buyLog?phone=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+
+[ 2017-05-04T18:07:24+08:00 ] ::1 /tp-hangkong/index.php/Home/user/getlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant APP_DEBUG already defined D:\phpStudy\WWW\tp-hangkong\Application\Home\Conf\config.php 第 17 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\tp-hangkong\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `user_info` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: starTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 24 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 25 行.
+NOTIC: [8] Undefined index: nickname D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 34 行.
+NOTIC: [8] Undefined index: phoneNum D:\phpStudy\WWW\tp-hangkong\Application\Home\Controller\UserController.class.php 第 37 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `user_info` INNER JOIN member_info  ON user_info.memberId = member_info.memberid  INNER JOIN agent_info ON agent_info.code = user_info.agentId  WHERE user_info.nickname LIKE '%' AND `phoneNum` LIKE '%' LIMIT 0,5   [ RunTime:0.001000s ]
+
